@@ -1,0 +1,246 @@
+body {
+    font-family: unset;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+}
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    text-transform: none;
+}
+label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+legend {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+fieldset, input, select, textarea {
+    margin-bottom: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    margin-bottom: 2rem;
+}
+.content-header {
+    display: flex;
+    align-items: flex-end;
+}
+.content-more {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    margin-left: 2rem;
+}
+.error-message {
+    color: red;
+}
+.content-description {
+    margin: 1rem 0;
+}
+.content-description p {
+    margin: 1rem 0;
+}
+.content-description ul {
+    margin: 0 3rem;
+}
+.content-description li {
+    margin: 0;
+    padding: 0.2rem 0;
+    list-style-type: disc;
+}
+ul.manual-menu  {
+    margin: 0.5rem 0 1.5rem 0;
+    padding: 0;
+}
+ul.manual-menu li {
+    margin: 0 0 0 1rem;
+    padding: 0.1rem 0;
+}
+ul.manual-menu a {
+    margin: 0;
+    padding: 0;
+}
+/* button */
+button {
+    background-color: #b0c4de;
+    color: #000000;
+    border: 0;
+}
+button.warning {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+button:hover,
+button.information:hover,
+button.warning:hover {
+    opacity: 0.8;
+    filter: invert();
+}
+button:focus {
+    background-color: #b0c4de;
+    color: #000000;
+}
+button.warning:focus {
+    background-color: #ff0000;
+    color: #000000;
+}
+button + button {
+    margin-left: 1rem;
+}
+/* footer */
+.site-footer {
+    display: flex;
+    flex-direction: column;
+}
+.copyright {
+    padding: 2rem;
+    margin: 0 auto 2rem;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+.historyback {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+/* Nav bar */
+.top-nav {
+}
+.top-nav-title a {
+    display: inline-block;
+    color: #5f9ea0;
+}
+.top-nav-title a::first-letter {
+    color: #2f4f4f;
+}
+.top-nav-links-settings-button,
+.top-nav-links-settings-button:hover,
+.top-nav-links-settings-button:focus {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+}
+.top-nav-links-settings-button:hover {
+    color: #d33c43;
+}
+
+/* chat */
+.chat-chatroom-title {
+    display: inline-block;
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+}
+.chatroom-information {
+    padding: 1rem 0;
+}
+.chatroom-edit {
+    text-align: right;
+}
+#id-send-error-message {
+    color: #ff0000;
+}
+
+/* form */
+#chatentry-form {
+    margin-top: 2rem;
+}
+
+/* top */
+.chatroomlist-name {
+    display: inline-block;
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+    border-radius: 0.5rem;
+}
+
+/* modal */
+.modal-body {
+    overflow: scroll;
+    height: 60vh;
+}
+
+/* button */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.button-hidden {
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#id-chatentrieslist {
+    display: flex;
+}
+
+/* table */
+.namelist-table {
+    width: 140rem;
+}
+.table-column-date {
+    width: 20rem;
+}
+.table-column-showlog {
+    width: 10rem;
+}
+
+/* 戦闘用 */
+.battle-skill-label {
+    font-weight: normal;
+}
+.battle-skill-checkbox {
+    width: 15rem;
+}
+.battle-character-statuses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.battleform-fieldset-container {
+    padding: 1rem 0;
+}
+.battleform-fieldset-container + .battleform-fieldset-container {
+    border-top: inset 1px;
+}
+.battleform-attribute-container {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0.5rem 0;
+}
+.battleform-attribute-container li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* commentary */
+.commentary-comment {
+    margin: 1rem 0;
+}
